@@ -1,114 +1,72 @@
 {
-    "editor.mouseWheelZoom": true,
-    "editor.tabSize": 4,
+    "workbench.colorTheme": "Moegi Dark",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "quill-icons",
 
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontWeight": "600",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 20,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.showTabs": "none",
+    "workbench.tips.enabled": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "workbench.list.smoothScrolling": true,
+    "workbench.editor.enablePreview": false,
 
-    "editor.lineHeight": 1.2,
-    "editor.lineNumbers": "on",
+    "window.titleBarStyle": "custom",
+    "window.title": "${rootName}",
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+
+    "editor.minimap.enabled": false,
+    "editor.guides.indentation": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderLineHighlight": "gutter",
+    "editor.matchBrackets": "never",
+    "editor.lightbulb.enabled": "off",
+    "editor.hover.enabled": true,
+    "editor.showFoldingControls": "never",
+
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
     "editor.glyphMargin": false,
 
-    "editor.cursorBlinking": "expand",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorWidth": 2,
-    "editor.minimap.enabled": false,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.smoothScrolling": true,
 
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.folding": false,
-
-    "editor.quickSuggestionsDelay": 60,
-    "editor.quickSuggestions": {
-        "other": true,
-        "comments": false,
-        "strings": false
-    },
-
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": ["comment"],
-                "settings": {"foreground": "#0f774d", "fontStyle": "bold"},
-            }
-        ]
-    },
-
-    "extensions.autoCheckUpdates": false,
-    "extensions.autoUpdate": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontWeight": 400,
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 1.6,
 
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    "explorer.autoReveal": false,
     "explorer.compactFolders": false,
 
-    "update.enableWindowsBackgroundUpdates": false,
-    "update.showReleaseNotes": false,
-    "update.mode": "none",
-
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "terminal.integrated.fontFamily": "JetBrains Mono",
-    "terminal.integrated.fontSize": 15,
-    "terminal.integrated.fontWeight": 600,
-    "terminal.integrated.tabs.hideCondition": "singleGroup",
-
-    "workbench.startupEditor": "none",
-    "workbench.iconTheme": "bearded-icons",
-    "workbench.editorAssociations": {"*.db": "sqlite3-editor.optional"},
-    "workbench.settings.applyToAllProfiles": [],
-
-    "workbench.editor.limit.value": 1,
-    "workbench.editor.showTabs": "none",
-    "workbench.activityBar.location": "top",
-    "workbench.statusBar.visible": false,
-    "workbench.tree.indent": 20,
-    "workbench.tree.renderIndentGuides": "always",
-
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.focusRecentEditorAfterClose": false,
-    "workbench.editor.mouseBackForwardToNavigate": false,
-    "workbench.editor.tabCloseButton": "off",
-
-    "workbench.cloudChanges.autoResume": "off",
-    "workbench.cloudChanges.continueOn": "off",
-    "workbench.enableExperiments": false,
-    "workbench.layoutControl.enabled": false,
-    "workbench.colorTheme": "Bearded Theme Vivid Black",
-
-    "window.titleBarStyle": "custom",
-    "window.closeWhenEmpty": true,
-    "window.commandCenter": false,
-    "window.density.editorTabHeight": "compact",
-    "window.doubleClickIconToClose": true,
-    "window.menuBarVisibility": "toggle",
-
-    "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
+    "files.autoSave": "afterDelay",
+
+    "extensions.ignoreRecommendations": false,
+    "breadcrumbs.enabled": true,
+
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.untrustedFiles": "open",
 
     "files.exclude": {
         "**/.DS_Store": false,
         "**/.git": false,
         "**/.hg": false,
         "**/.svn": false,
-        "**/.vscode": false,
-        "**/bot.db-shm": true,
-        "**/bot.db-wal": true,
+        "**/.vscode": true,
         "**/CVS": false,
-        "**/Desktop.ini": true
+        "**/Desktop.ini": true,
+        "**/*.bat": true,
+        "**/.venv": true
     },
-
-    "security.workspace.trust.banner": "never",
-    "security.workspace.trust.untrustedFiles": "open",
-
-    "cSpell.language": "en,ru",
-    "cSpell.userWords": [],
-    "cSpell.ignoreWords": [],
-    "python.createEnvironment.trigger": "off",
 
     "json.format.keepLines": true,
     "[json]": {
@@ -116,11 +74,6 @@
         "editor.tabSize": 2
     },
 
-    "codeium.enableCodeLens": false,
-
-    "sqlite3-editor.ui.tableSelector.displayColumns": false,
-    "sqlite3-editor.ui.tableSelector.displayShadowTables": false,
-
-    "breadcrumbs.enabled": false,
-    "zenMode.hideStatusBar": false,
+    "cSpell.language": "en,ru",
+    "codeium.enableCodeLens": false
 }
